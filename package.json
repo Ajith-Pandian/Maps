@@ -1,0 +1,37 @@
+{
+  "name": "Maps",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.1",
+    "react-native-android-seekbar": "0.0.2",
+    "react-native-location": "^0.27.0",
+    "react-native-maps": "^0.15.2",
+    "react-native-seekbar-android": "^1.0.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^0.14.1",
+    "redux-thunk": "^2.2.0",
+    "rxjs": "^5.4.1",
+    "rxjs-es": "^5.0.0-beta.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "20.0.3",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
